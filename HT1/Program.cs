@@ -49,7 +49,7 @@ Console.Clear();
 Console.Write("Введите целое число: ");
 int n = Convert.ToInt32(Console.ReadLine());
 int count = 2;
-if (n > 1)
+if (n >= 2)
 {
   while (count <= n)
   {
