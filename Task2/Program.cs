@@ -16,4 +16,8 @@
 //   Console.WriteLine(m);
 // else 
 //   Console.WriteLine("=");
+Console.Clear();
+Console.Write("Введите число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Квадрат введенного числа: {n*n}");
 
