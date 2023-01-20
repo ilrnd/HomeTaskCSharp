@@ -17,5 +17,6 @@ while (n != 0)
   }
   else if (n > max2)
     max2 = n;
+  // Console.WriteLine($"max1={max1}; max2={max2}");
 }
   Console.WriteLine($"Второе максимальное число = {max2}");
