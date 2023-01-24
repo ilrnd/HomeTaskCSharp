@@ -4,7 +4,7 @@
 // 9012 -> 12
 Console.Clear();
 Console.Write("Введите число: ");
-string a = Console.ReadLine();
+string? a = Console.ReadLine();
 int sum = 0;
 for (int i = 0; i < a.Length; i++)
 {
