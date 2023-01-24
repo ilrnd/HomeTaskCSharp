@@ -12,11 +12,11 @@ bool prime(int number)
 {
   bool numb = true;
   for (int j = 2; j <= number; j++) // механизм проверки на простое число
-  if (number % j == 0 && number != j)
-  {
-    numb = false;
-    break;
-  }
+    if (number % j == 0 && number != j)
+    {
+      numb = false;
+      break;
+    }
   return numb;
 }
 
@@ -24,9 +24,9 @@ for (int i = 2; i < n; i++)
 {
   bool flag1 = prime(i);
   bool flag2 = prime(n - i);
-  if (flag1 && flag2 )
+  if (flag1 && flag2)
   {
-  Console.Write($"{i} + {n-i} ");
-  break;
+    Console.Write($"{i} + {n - i} ");
+    break;
   }
 }
